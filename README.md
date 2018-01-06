@@ -1,5 +1,5 @@
 # DelegatorWithSpringDI
-a sample implementation of delegator design using annotation based spring dependency injection through constructors.
+a sample implementation of delegator pattern; object composition is achieved using annotation based spring dependency injection through constructors.
 
 Following dependencies to be added to run the project.
 
