@@ -12,4 +12,4 @@ Following dependencies to be added to run the project.
     spring-expression-4.3.9.RELEASE
     
     
-Clone & play around with the project, add spring boot and other plugins. 
+Clone & play around with the project, add spring boot, akka framework to enable distributed computing and other plugins. 
