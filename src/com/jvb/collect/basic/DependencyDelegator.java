@@ -15,12 +15,12 @@ public class DependencyDelegator {
     public DependencyDelegator(List<DelegatedInterface> autowiredDependencies){
         recieverCollec = new HashMap<Integer, DelegatedInterface>();
         for(DelegatedInterface dep : autowiredDependencies) {
-            register(dep);
+            subscribe(dep);
         }
 
     }
 
-    public void register(DelegatedInterface s){
+    public void subscribe(DelegatedInterface s){
         recieverCollec.put(s.getDelegateMarker(),s);
     }
 
